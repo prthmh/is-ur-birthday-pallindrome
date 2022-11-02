@@ -15,13 +15,13 @@ h1{
 
 
 
-.label-decor {
+label {
     display: block;
     font-size: large;
     font-weight: 1000;
   }
   
-  .input-decor {
+input {
     font-size: 16px;
     padding: 0.6rem 1rem;
     margin: 2rem;
@@ -31,7 +31,7 @@ h1{
     max-width: 200px;
   }
 
-  #show-btn {
+#show-btn {
     background: #f87171;
     border: none;
     padding: 1rem 2rem;
@@ -40,4 +40,8 @@ h1{
     cursor: pointer;
     margin: auto;
     display: block;
+  }
+
+  button{
+    font-family: 'Josefin Sans', sans-serif;
   }
